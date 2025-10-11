@@ -1,0 +1,65 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.dark-mode-h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #fff;
+  margin-left: 3rem;
+  transition: all 0.5s;
+}
+
+.light-mode-h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #000;
+  margin-left: 3rem;
+  transition: all 0.5s;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  margin-left: 3rem;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #fff;
+}
+
+*,
+*::before,
+* ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.light-mode {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s;
+}

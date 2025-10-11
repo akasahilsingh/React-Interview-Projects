@@ -28,13 +28,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
 
 button:hover {
   border-color: #646cff;
@@ -49,7 +49,7 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
- 
+
   button {
     background-color: #f9f9f9;
   }
@@ -58,13 +58,14 @@ button:focus-visible {
 .main-body {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+
   align-items: center;
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
+  /* border: 2px solid red; */
 }
-.product-container{
+.product-container {
   width: 250px;
   height: 400px;
   /* border: 2px solid red; */
@@ -80,8 +81,7 @@ button:focus-visible {
   font-family: inherit;
   text-align: center;
   padding: 1rem;
-    transition: all 0.3s ease;
-  
+  transition: all 0.3s ease;
 }
 
 .load-more-btn {
@@ -98,12 +98,17 @@ button:focus-visible {
   transition: border-color 0.25s;
 }
 
-.product-img{
+.product-img {
   width: 50%;
   height: 50%;
 }
 
 .product-container:hover {
-
   scale: 1.1;
+}
+
+.final-para {
+  color: #000;
+  text-align: center;
+  font-weight: bolder;
 }

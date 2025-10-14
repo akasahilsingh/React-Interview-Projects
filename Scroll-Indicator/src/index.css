@@ -1,0 +1,65 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 1rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.container {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.top-container {
+  background-color: #56558b;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.product-container {
+  margin: 1rem 0;
+}
+
+.scroll-bar {
+  background-color: aliceblue;
+  height: 0.5rem;
+}
+
+.scroll-bar-container {
+  width: 100%;
+}

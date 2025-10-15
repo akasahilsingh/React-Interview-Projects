@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.wrapper {
+  border: 2px solid red;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.tabs {
+  border: 2px solid goldenrod;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.tabs.active {
+  background-color: aquamarine;
+}
+
+.content-container {
+  background-color: aqua;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.tabs-wrapper {
+  display: flex;
+  gap: 20px;
+}
